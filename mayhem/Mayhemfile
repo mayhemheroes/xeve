@@ -1,0 +1,9 @@
+project: xeve-mayhem
+target: xeve-mayhem-1
+
+cmds:
+  - cmd: /xeveb_app -i "testsuite/test.mp4" 
+
+testsuite:
+  # - file://testsuite/test.mp4
+  - file://testsuite/seed1.txt
