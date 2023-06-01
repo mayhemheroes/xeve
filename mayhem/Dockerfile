@@ -23,6 +23,8 @@ FROM --platform=linux/amd64 ubuntu:20.04
 COPY --from=builder /xeve-mayhem/build/bin/. /
 COPY --from=builder /xeve-mayhem/build/lib/. /lib
 COPY --from=builder /xeve-mayhem/testsuite /testsuite
+COPY --from=builder /xeve-mayhem/crashcase /
+
 
 # Instructions to get the built libraries into a common place to have the executable load them
 # RUN cd ~ \
