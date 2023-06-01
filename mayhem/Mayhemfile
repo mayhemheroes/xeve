@@ -1,5 +1,5 @@
 project: xeve-mayhem
-target: xeve-mayhem-3
+target: xeve-mayhem-4
 
 cmds:
   # - cmd: /xeveb_app -w 50 -h 50 -z 24 -i @@
