@@ -1,5 +1,5 @@
 project: xeve-mayhem
-target: xeve-mayhem-2
+target: xeve-mayhem-3
 
 cmds:
   - cmd: /xeveb_app -w 50 -h 50 -z 24 -i @@
@@ -10,5 +10,8 @@ cmds:
 
 testsuite:
   - file://testsuite/test.mp4
+  - file://testsuite/broken.mp4
+  - https://mayhem.forallsecure.com/mayhemuser/foo/bar/testsuite.tar
+  - https://mayhem.forallsecure.com/mayhemuser/foo/bar/uploaded/f3364b2ee694e27d558aa38ce325b624a1f11e8718da0d5b1ff16419a61eeb3e/testsuite.tgz
   # - file://testsuite/seed1.txt
 
