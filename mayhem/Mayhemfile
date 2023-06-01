@@ -1,11 +1,12 @@
 project: xeve-mayhem
-target: xeve-mayhem-1
+target: xeve-mayhem-2
 
 cmds:
   - cmd: /xeveb_app -w 50 -h 50 -z 24 -i @@
-    filepath: /name.mp4
     env: 
-      MFUZZ_COMPAT_LEVEL: 1
+      MFUZZ_COMPAT_LEVEL: '1'
+    filepath: /name.mp4
+    timeout: 15
 
 testsuite:
   - file://testsuite/test.mp4
