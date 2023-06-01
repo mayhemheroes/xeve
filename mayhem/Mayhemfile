@@ -1,9 +1,9 @@
 project: xeve-mayhem
-target: xeve-mayhem-4
+target: xeveb_app
 
 cmds:
   # - cmd: /xeveb_app
-  - cmd: /xeveb_app
+  - cmd: /xeveb_app @@
     env: 
       MFUZZ_COMPAT_LEVEL: '1'
 
