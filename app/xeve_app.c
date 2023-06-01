@@ -934,11 +934,6 @@ int main(int argc, const char **argv)
         return 0;
     }
 
-    if (strcmp(argv[1], "--thistests")) {
-      printf("Test case");
-      abort();
-    }
-
     /* set default parameters */
     memset(&cdsc, 0, sizeof(XEVE_CDSC));
     param = &cdsc.param;

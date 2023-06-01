@@ -3,7 +3,7 @@ target: xeveb_app
 
 cmds:
   # - cmd: /xeveb_app
-  - cmd: /xeveb_app @@
+  - cmd: /xeveb_app -i testsuite/test.mp4 -w 50 -h 50 -z 24
     env: 
       MFUZZ_COMPAT_LEVEL: '1'
 
