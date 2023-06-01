@@ -10,11 +10,11 @@ cmds:
     timeout: 15
 
 
-testsuite:
+# testsuite:
 #   - file://testsuite/test.mp4
 #   - file://testsuite/broken.mp4
 #   - file://testsuite/t1.mp4
 #   - file://testsuite/t2.mp4
 #   - file://testsuite/t3.mp4
-  - file://testsuite/seed1.txt
+  # - file://testsuite/seed1.txt
 
