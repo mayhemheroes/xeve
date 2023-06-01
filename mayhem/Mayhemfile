@@ -4,7 +4,7 @@ target: xeve-mayhem-1
 cmds:
   - cmd: /xeveb_app -w 50 -h 50 -z 24 -i @@
     filepath: /name.mp4
-    env: {"MFUZZ_COMPAT_LEVEL": 1}
+    env: {"MFUZZ_COMPAT_LEVEL": "1"}
 
 testsuite:
   - file://testsuite/test.mp4
