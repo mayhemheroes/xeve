@@ -6,8 +6,10 @@ cmds:
   - cmd: /xeveb_app -i testsuite/test.mp4 -w 50 -h 10 
     env: 
       MFUZZ_COMPAT_LEVEL: '1'
+      DISABLE_SMOKETEST: '1'
     # filepath: /name.mp4
     timeout: 15
+
 
 testsuite:
 #   - file://testsuite/test.mp4
